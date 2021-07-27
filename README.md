@@ -1,4 +1,4 @@
-<!-- # train4Exa
+# train4Exa
 
 • SQL (Hive/Impala):
 	• Prio 1: 
@@ -21,4 +21,4 @@
 	• Prio 2: 
 		○ Relational database design : https://www3.ntu.edu.sg/home/ehchua/programming/sql/Relational_Database_Design.html
 		○ Views vs tables
- -->
+
