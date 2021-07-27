@@ -1,6 +1,6 @@
 # train4Exa
 
-_• SQL (Hive/Impala):
+• SQL (Hive/Impala):
 	• Prio 1: 
 		○ ranking functions (row_number, rank, dense_rank)
 		○ functions for updating tables: insert into,  insert overwrite
@@ -20,5 +20,4 @@ _• SQL (Hive/Impala):
 		○ Table structure, data types, schemas
 	• Prio 2: 
 		○ Relational database design : https://www3.ntu.edu.sg/home/ehchua/programming/sql/Relational_Database_Design.html
-		○ Views vs tables_
-
+		○ Views vs tables
