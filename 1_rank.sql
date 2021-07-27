@@ -1,6 +1,6 @@
 #https://www.sqlshack.com/overview-of-sql-rank-functions/ 
 
-#CSV failas sukurtas ir ikeltas nuroytoj location
+#CSV file created and uploaded in location specified
 CREATE TABLE ExamResults
     (StudentName    STRING,
      Subject        STRING,
