@@ -1,7 +1,7 @@
 # train4Exa
-[//]: #
-• SQL (Hive/Impala):
-	• Prio 1: 
+
+<!-- • SQL (Hive/Impala): -->
+<!-- 	• Prio 1:  -->
 		○ ranking functions (row_number, rank, dense_rank)
 		○ functions for updating tables: insert into,  insert overwrite
 		○ functions for managing tables and schemas: create, alter, drop, truncate, rename
