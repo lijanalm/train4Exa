@@ -1,5 +1,5 @@
 # train4Exa
-
+[//]: #
 • SQL (Hive/Impala):
 	• Prio 1: 
 		○ ranking functions (row_number, rank, dense_rank)
