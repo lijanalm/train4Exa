@@ -23,6 +23,12 @@ INSERT OVERWRITE chicago_employees
 CREATE TABLE chicago_employees AS
   SELECT * FROM employees WHERE office_id='b';
 
+#you can specity which columns to return:
+CREATE TABLE chicago_employees AS
+  SELECT empl_id, first_name, last_name, salary 
+    FROM employees 
+    WHERE office_id='b';
+
 #spec properties of the cable go before the AS keyword:
 CREATE TABLE chicago_employees
   ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
