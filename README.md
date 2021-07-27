@@ -14,11 +14,15 @@
 	• Window function syntax in Impala: https://docs.cloudera.com/documentation/enterprise/5-8-x/topics/impala_analytic_functions.html#rank
 
 • Pythonu ir PySpark
+
 	• Prio 1: Conditions, Loops, Data structures  https://www.coursera.org/specializations/python#courses
 	• Prio 2: Pandas
+
 • Git intro: https://guides.github.com/introduction/git-handbook/ (cia github'o o ne gitlab'o intro, bet idejos tos pacios).
 
+
 • Data engineering:
+
 	• Prio 1: 
 		○ Partitioning concepts, syntax: https://docs.cloudera.com/documentation/enterprise/5-5-x/topics/impala_partitioning.html#partitioning
 		○ Table structure, data types, schemas
