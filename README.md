@@ -1,6 +1,6 @@
 # train4Exa
 
-#####• SQL (Hive/Impala):
+• SQL (Hive/Impala):
 	• Prio 1: 
 		○ ranking functions (row_number, rank, dense_rank)
 		○ functions for updating tables: insert into,  insert overwrite
