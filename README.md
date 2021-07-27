@@ -1,10 +1,13 @@
 # train4Exa
 
 • SQL (Hive/Impala):
+
 	• Prio 1: 
+
 		○ ranking functions (row_number, rank, dense_rank)
 		○ functions for updating tables: insert into,  insert overwrite
 		○ functions for managing tables and schemas: create, alter, drop, truncate, rename
+
 	• Prio 2: 
 		○ analytic functions (lead, lag, first_value, last_value)
 	• Window function concepts: https://learnsql.com/blog/sql-window-functions-cheat-sheet/
