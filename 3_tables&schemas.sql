@@ -47,7 +47,27 @@ CREATE TABLE IF NOT EXISTS table_name;
 #Cloning a Table with LIKE 
 #Creates exactly the same structure as an existing table
 CREATE TABLE jobs_archived LIKE jobs;
+#--------------------------------
 
+#TBLPROPERTIES
+CREATE EXTERNAL TABLE tbm_sf_la_central (
+ tbm STRING, 
+ year SMALLINT, 
+ month TINYINT, 
+ day TINYINT, 
+ hour TINYINT, 
+ dist DOUBLE, 
+ lon FLOAT, 
+ lat FLOAT
+ )
+ ROW FORMAT DELIMITED
+ FIELDS TERMINATED BY ','
+ LOCATION 's3a://training-coursera2/tbm_sf_la/central/'
+ TBLPROPERTIES (
+ 'skip.header.line.count' = '1', 
+ 'serialization.null.format' = '999999'
+ );
+#--------------------------------
 
 
 
