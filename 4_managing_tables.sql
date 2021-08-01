@@ -47,5 +47,4 @@ ALTER TABLE tablename REPLACE COLUMNS (col1 TYPE1,col2 TYPE2,… );
 
 #Changing to an Unmanaged (External) Table
 ALTER TABLE tablename SET TBLPROPERTIES('EXTERNAL'='TRUE');
-
 #(You can also use SET TBLPROPERTIES with other properties that were not set at creation. )
